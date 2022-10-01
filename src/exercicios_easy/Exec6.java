@@ -11,11 +11,9 @@ public class Exec6 {
         String resultado = null;
         if (media < 5) {
             resultado = ("reprovado ");
-            return resultado;
-            }
+        }
         if (media > 5) {
             resultado = ("aprovado ");
-            return resultado;
         }
         if (media == 5) {
             resultado = ("exame ");

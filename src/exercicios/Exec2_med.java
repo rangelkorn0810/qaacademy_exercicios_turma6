@@ -5,10 +5,9 @@ package exercicios;
 import javax.swing.*;
 
 public class Exec2_med {
-    public static void main(String[] args) {
-        double valorInv=0, taxajuros=0.05, valorJuros=0, valorTotal=0;
+    public void investimento(double valorInv) {
+        double taxajuros=0.05, valorJuros=0, valorTotal=0;
         int i=1;
-        valorInv = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor de investimento"));
         while (i<=10){
            valorJuros = ((valorJuros + valorInv)*taxajuros)+valorJuros;
            i++;
