@@ -6,8 +6,11 @@ import exercicios_easy.*;
 
 public class Execucao {
     public static void main(String[] args) {
+        Exec11 exec11 = new Exec11();
+        exec11.somarAteCem(0);
 
-
+//        Exec10_1 exec10_1 = new Exec10_1();
+//        exec10_1.exibirInvest(1000);
 
 //        Exec7_med exec7_med = new Exec7_med();
 //        exec7_med.exibirMes();
